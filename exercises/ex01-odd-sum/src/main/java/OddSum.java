@@ -35,12 +35,12 @@ public class OddSum {
         int i = 1;
         int sum = 0;
         if (num.length % 2 == 1) {
-            while (i + 1 <= num.length) {
+            while (i + 2 <= num.length) {
                 sum += num[i];
                 i += 2;
             }
         } else {
-            while (i + 2 <= num.length) {
+            while (i + 1 <= num.length) {
             sum += num[i];
             i += 2;
             }
