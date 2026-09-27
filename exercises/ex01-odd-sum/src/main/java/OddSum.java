@@ -34,7 +34,7 @@ public class OddSum {
         int[] num = arr;
         int i = 1;
         int sum = 0;
-        while (i + 2 <= size(num)) {
+        while (i + 2 <= num.length) {
             sum += num[i];
             i += 2;
         }
