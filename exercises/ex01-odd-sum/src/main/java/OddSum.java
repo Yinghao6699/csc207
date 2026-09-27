@@ -31,6 +31,13 @@ public class OddSum {
         //       Recall arr.length gives the number of elements.
         //       You can index into arrays as we do in Python
         //       (e.g. arr[i] gives you the item at index i).
-        return 0;
+        int[] num = arr;
+        int i = 1;
+        int sum = 0;
+        while i + 2 <= size(num){
+            sum += num[i];
+            i += 2
+        }
+        return sum;
     }
 }
