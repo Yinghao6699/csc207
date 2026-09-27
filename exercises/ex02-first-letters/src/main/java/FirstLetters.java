@@ -29,7 +29,7 @@ public class FirstLetters {
         String[] lst = word.split(" ");
         String output = "";
         for (String a : lst){
-            output += a.charAt[0];
+            output += a.charAt(0);
         }
         return output;
     }
