@@ -36,7 +36,7 @@ public class OddSum {
         int sum = 0;
         while (i + 2 <= size(num)) {
             sum += num[i];
-            i += 2
+            i += 2;
         }
         return sum;
     }
