@@ -59,8 +59,8 @@ public class Aliasing {
             new_arr[i] = a;
             i += 1;
         }
-        for (int i = 0; i < new_arr.length; i++) {
-            new_arr[i] += amount;
+        for (int b = 0; b < new_arr.length; b++) {
+            new_arr[b] += amount;
         }
         return new_arr;
     }
