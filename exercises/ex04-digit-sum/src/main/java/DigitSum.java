@@ -23,7 +23,7 @@ public class DigitSum {
     public static int digitSum(int n) {
         int all = 0;
         String s = String.valueOf(Math.abs(n));
-        int length = String.valueOf(n).length();
+        int length = s.length();
         for (int i = 0; i < length; i++){
             char c = s.charAt(i);
             int digit = Character.getNumericValue(c);
