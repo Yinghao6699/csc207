@@ -24,7 +24,7 @@ public class DigitSum {
         int all = 0;
         String s = String.valueOf(n);
         int length = String.valueOf(n).length();
-        for (int i = 0; i < length; i++){
+        for (int i = 0; i + 1 < length; i++){
             char c = s.charAt(i);
             int digit = Character.getNumericValue(c);
             all += digit;
