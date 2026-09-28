@@ -67,6 +67,11 @@ public class MyHashing {
    * @return the sum of the characters' numeric codes
    */
   public static int hash(String value) {
-    return String.toCharArray(value);
+    int[] val = String.toCharArray(value);
+    int sum = 0;
+    for (int a : val){
+      sum += a;
+    }
+    return sum;
   }
 }
