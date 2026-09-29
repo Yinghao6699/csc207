@@ -46,7 +46,7 @@ public class Point {
    */
   @Override
   public String toString() {
-    return "(" + Point.getX() + ", " + Point.getY() + ")";
+    return "(" + this.getX() + ", " + this.getY() + ")";
   }
 
   /**
