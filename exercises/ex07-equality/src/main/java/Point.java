@@ -59,7 +59,7 @@ public class Point {
   public boolean equals(Object o) {
     // TODO: check that o is a Point (use `instanceof`), cast it, and compare
     //       the x and y fields.
-    if (o.instanceof(Point)){
+    if (o instanceof Point){
       Point a = (Point) o;
       if (a.getx() == this.x && a.getY() == this.y){
         return true;
