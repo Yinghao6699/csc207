@@ -61,7 +61,7 @@ public class Point {
     //       the x and y fields.
     if (o instanceof Point){
       Point a = (Point) o;
-      if (a.getx() == this.x && a.getY() == this.y){
+      if (a.getX() == this.x && a.getY() == this.y){
         return true;
       } else{
         return false;
