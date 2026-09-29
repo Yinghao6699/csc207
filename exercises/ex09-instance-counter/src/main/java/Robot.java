@@ -29,13 +29,9 @@ public class Robot {
   public Robot(String name) {
     // TODO: set this.name; set this.id to the current value of count (so the
     //       first Robot gets id 0); then increase count by 1.
-    if (this.id != 0){
-      this.id += 1;
-    }else{
-      this.id == 0;
-    }
     this.name = name;
-  }
+    this.id = count;
+    count++;
 
   /**
    * Returns how many Robots have been created so far.
@@ -43,7 +39,7 @@ public class Robot {
    * @return the shared Robot count
    */
   public static int getCount() {
-    return this.id + 1;
+    return count;
   }
 
   /**
