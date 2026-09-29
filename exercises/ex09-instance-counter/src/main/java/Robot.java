@@ -32,7 +32,7 @@ public class Robot {
     this.name = name;
     this.id = count;
     count++;
-
+  }
   /**
    * Returns how many Robots have been created so far.
    *
