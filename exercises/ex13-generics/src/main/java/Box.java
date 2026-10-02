@@ -54,7 +54,7 @@ public class Box<T> {
    */
   public static <T extends Comparable<T>> T max(T a, T b) {
     // TODO: use a.compareTo(b) to decide which to return.
-    if (a.compareTo(b)){
+    if (a.compareTo(b) >= 0){
       return a;
     } else{
       return b;
